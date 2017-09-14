@@ -28,6 +28,7 @@
 		204F9DF61F6A7C9F004C4435 /* CMAllMediaVideoRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9DF01F6A7C9F004C4435 /* CMAllMediaVideoRequestTask.m */; };
 		204F9DF71F6A7C9F004C4435 /* UIScrollView+CMAllMediaQuickScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9DF21F6A7C9F004C4435 /* UIScrollView+CMAllMediaQuickScrollView.m */; };
 		204F9DFA1F6A7D18004C4435 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9DF91F6A7D18004C4435 /* UIView+Layout.m */; };
+		204F9DFD1F6A8172004C4435 /* photobrowser.gif in Resources */ = {isa = PBXBuildFile; fileRef = 204F9DFC1F6A8172004C4435 /* photobrowser.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		204F9DF21F6A7C9F004C4435 /* UIScrollView+CMAllMediaQuickScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CMAllMediaQuickScrollView.m"; sourceTree = "<group>"; };
 		204F9DF81F6A7D18004C4435 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
 		204F9DF91F6A7D18004C4435 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		204F9DFC1F6A8172004C4435 /* photobrowser.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = photobrowser.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		204F9D9A1F6A7A7E004C4435 /* ZYPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				204F9DFB1F6A8172004C4435 /* image */,
 				204F9DE81F6A7C9F004C4435 /* CMVideoManager */,
 				204F9DD41F6A7AC0004C4435 /* CMPhotoBrowser */,
 				204F9DE41F6A7B4E004C4435 /* Header.h */,
@@ -219,6 +222,14 @@
 				204F9DF21F6A7C9F004C4435 /* UIScrollView+CMAllMediaQuickScrollView.m */,
 			);
 			path = CMVideoManager;
+			sourceTree = "<group>";
+		};
+		204F9DFB1F6A8172004C4435 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				204F9DFC1F6A8172004C4435 /* photobrowser.gif */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,6 +343,7 @@
 			files = (
 				204F9DAE1F6A7A7E004C4435 /* LaunchScreen.storyboard in Resources */,
 				204F9DAB1F6A7A7E004C4435 /* Assets.xcassets in Resources */,
+				204F9DFD1F6A8172004C4435 /* photobrowser.gif in Resources */,
 				204F9DA61F6A7A7E004C4435 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -616,6 +628,7 @@
 				204F9DCA1F6A7A7E004C4435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		204F9DCB1F6A7A7E004C4435 /* Build configuration list for PBXNativeTarget "ZYPhotoBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -624,6 +637,7 @@
 				204F9DCD1F6A7A7E004C4435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		204F9DCE1F6A7A7E004C4435 /* Build configuration list for PBXNativeTarget "ZYPhotoBrowserUITests" */ = {
 			isa = XCConfigurationList;
@@ -632,6 +646,7 @@
 				204F9DD01F6A7A7E004C4435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
