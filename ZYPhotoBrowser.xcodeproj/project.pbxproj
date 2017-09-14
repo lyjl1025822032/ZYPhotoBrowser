@@ -16,6 +16,18 @@
 		204F9DAE1F6A7A7E004C4435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204F9DAC1F6A7A7E004C4435 /* LaunchScreen.storyboard */; };
 		204F9DB91F6A7A7E004C4435 /* ZYPhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9DB81F6A7A7E004C4435 /* ZYPhotoBrowserTests.m */; };
 		204F9DC41F6A7A7E004C4435 /* ZYPhotoBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9DC31F6A7A7E004C4435 /* ZYPhotoBrowserUITests.m */; };
+		204F9DDD1F6A7AC0004C4435 /* CMAllMediaPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9DD61F6A7AC0004C4435 /* CMAllMediaPhotoBrowser.m */; };
+		204F9DDE1F6A7AC0004C4435 /* CMAllMediaPhotoBrowserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9DD81F6A7AC0004C4435 /* CMAllMediaPhotoBrowserManager.m */; };
+		204F9DDF1F6A7AC0004C4435 /* CMAllMediaPhotoProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9DDA1F6A7AC0004C4435 /* CMAllMediaPhotoProgress.m */; };
+		204F9DE01F6A7AC0004C4435 /* CMAllMediaPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9DDC1F6A7AC0004C4435 /* CMAllMediaPhotoView.m */; };
+		204F9DE31F6A7B1B004C4435 /* PhotoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9DE21F6A7B1B004C4435 /* PhotoTableViewCell.m */; };
+		204F9DE71F6A7C85004C4435 /* UIImage+CMAllMediaPhotoGif.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9DE61F6A7C85004C4435 /* UIImage+CMAllMediaPhotoGif.m */; };
+		204F9DF31F6A7C9F004C4435 /* CMAllMediaLoaderURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9DEA1F6A7C9F004C4435 /* CMAllMediaLoaderURLConnection.m */; };
+		204F9DF41F6A7C9F004C4435 /* CMAllMediaVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9DEC1F6A7C9F004C4435 /* CMAllMediaVideoManager.m */; };
+		204F9DF51F6A7C9F004C4435 /* CMAllMediaVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9DEE1F6A7C9F004C4435 /* CMAllMediaVideoPlayerView.m */; };
+		204F9DF61F6A7C9F004C4435 /* CMAllMediaVideoRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9DF01F6A7C9F004C4435 /* CMAllMediaVideoRequestTask.m */; };
+		204F9DF71F6A7C9F004C4435 /* UIScrollView+CMAllMediaQuickScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9DF21F6A7C9F004C4435 /* UIScrollView+CMAllMediaQuickScrollView.m */; };
+		204F9DFA1F6A7D18004C4435 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9DF91F6A7D18004C4435 /* UIView+Layout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +65,31 @@
 		204F9DBF1F6A7A7E004C4435 /* ZYPhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYPhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		204F9DC31F6A7A7E004C4435 /* ZYPhotoBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPhotoBrowserUITests.m; sourceTree = "<group>"; };
 		204F9DC51F6A7A7E004C4435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204F9DD51F6A7AC0004C4435 /* CMAllMediaPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAllMediaPhotoBrowser.h; sourceTree = "<group>"; };
+		204F9DD61F6A7AC0004C4435 /* CMAllMediaPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaPhotoBrowser.m; sourceTree = "<group>"; };
+		204F9DD71F6A7AC0004C4435 /* CMAllMediaPhotoBrowserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAllMediaPhotoBrowserManager.h; sourceTree = "<group>"; };
+		204F9DD81F6A7AC0004C4435 /* CMAllMediaPhotoBrowserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaPhotoBrowserManager.m; sourceTree = "<group>"; };
+		204F9DD91F6A7AC0004C4435 /* CMAllMediaPhotoProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAllMediaPhotoProgress.h; sourceTree = "<group>"; };
+		204F9DDA1F6A7AC0004C4435 /* CMAllMediaPhotoProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaPhotoProgress.m; sourceTree = "<group>"; };
+		204F9DDB1F6A7AC0004C4435 /* CMAllMediaPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAllMediaPhotoView.h; sourceTree = "<group>"; };
+		204F9DDC1F6A7AC0004C4435 /* CMAllMediaPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaPhotoView.m; sourceTree = "<group>"; };
+		204F9DE11F6A7B1B004C4435 /* PhotoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoTableViewCell.h; sourceTree = "<group>"; };
+		204F9DE21F6A7B1B004C4435 /* PhotoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTableViewCell.m; sourceTree = "<group>"; };
+		204F9DE41F6A7B4E004C4435 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		204F9DE51F6A7C85004C4435 /* UIImage+CMAllMediaPhotoGif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CMAllMediaPhotoGif.h"; sourceTree = "<group>"; };
+		204F9DE61F6A7C85004C4435 /* UIImage+CMAllMediaPhotoGif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CMAllMediaPhotoGif.m"; sourceTree = "<group>"; };
+		204F9DE91F6A7C9F004C4435 /* CMAllMediaLoaderURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAllMediaLoaderURLConnection.h; sourceTree = "<group>"; };
+		204F9DEA1F6A7C9F004C4435 /* CMAllMediaLoaderURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaLoaderURLConnection.m; sourceTree = "<group>"; };
+		204F9DEB1F6A7C9F004C4435 /* CMAllMediaVideoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAllMediaVideoManager.h; sourceTree = "<group>"; };
+		204F9DEC1F6A7C9F004C4435 /* CMAllMediaVideoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaVideoManager.m; sourceTree = "<group>"; };
+		204F9DED1F6A7C9F004C4435 /* CMAllMediaVideoPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAllMediaVideoPlayerView.h; sourceTree = "<group>"; };
+		204F9DEE1F6A7C9F004C4435 /* CMAllMediaVideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaVideoPlayerView.m; sourceTree = "<group>"; };
+		204F9DEF1F6A7C9F004C4435 /* CMAllMediaVideoRequestTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAllMediaVideoRequestTask.h; sourceTree = "<group>"; };
+		204F9DF01F6A7C9F004C4435 /* CMAllMediaVideoRequestTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaVideoRequestTask.m; sourceTree = "<group>"; };
+		204F9DF11F6A7C9F004C4435 /* UIScrollView+CMAllMediaQuickScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CMAllMediaQuickScrollView.h"; sourceTree = "<group>"; };
+		204F9DF21F6A7C9F004C4435 /* UIScrollView+CMAllMediaQuickScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CMAllMediaQuickScrollView.m"; sourceTree = "<group>"; };
+		204F9DF81F6A7D18004C4435 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		204F9DF91F6A7D18004C4435 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +140,15 @@
 		204F9D9A1F6A7A7E004C4435 /* ZYPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				204F9DE81F6A7C9F004C4435 /* CMVideoManager */,
+				204F9DD41F6A7AC0004C4435 /* CMPhotoBrowser */,
+				204F9DE41F6A7B4E004C4435 /* Header.h */,
 				204F9D9E1F6A7A7E004C4435 /* AppDelegate.h */,
 				204F9D9F1F6A7A7E004C4435 /* AppDelegate.m */,
 				204F9DA11F6A7A7E004C4435 /* ViewController.h */,
 				204F9DA21F6A7A7E004C4435 /* ViewController.m */,
+				204F9DE11F6A7B1B004C4435 /* PhotoTableViewCell.h */,
+				204F9DE21F6A7B1B004C4435 /* PhotoTableViewCell.m */,
 				204F9DA41F6A7A7E004C4435 /* Main.storyboard */,
 				204F9DAA1F6A7A7E004C4435 /* Assets.xcassets */,
 				204F9DAC1F6A7A7E004C4435 /* LaunchScreen.storyboard */,
@@ -141,6 +183,42 @@
 				204F9DC51F6A7A7E004C4435 /* Info.plist */,
 			);
 			path = ZYPhotoBrowserUITests;
+			sourceTree = "<group>";
+		};
+		204F9DD41F6A7AC0004C4435 /* CMPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				204F9DF81F6A7D18004C4435 /* UIView+Layout.h */,
+				204F9DF91F6A7D18004C4435 /* UIView+Layout.m */,
+				204F9DE51F6A7C85004C4435 /* UIImage+CMAllMediaPhotoGif.h */,
+				204F9DE61F6A7C85004C4435 /* UIImage+CMAllMediaPhotoGif.m */,
+				204F9DD51F6A7AC0004C4435 /* CMAllMediaPhotoBrowser.h */,
+				204F9DD61F6A7AC0004C4435 /* CMAllMediaPhotoBrowser.m */,
+				204F9DD71F6A7AC0004C4435 /* CMAllMediaPhotoBrowserManager.h */,
+				204F9DD81F6A7AC0004C4435 /* CMAllMediaPhotoBrowserManager.m */,
+				204F9DD91F6A7AC0004C4435 /* CMAllMediaPhotoProgress.h */,
+				204F9DDA1F6A7AC0004C4435 /* CMAllMediaPhotoProgress.m */,
+				204F9DDB1F6A7AC0004C4435 /* CMAllMediaPhotoView.h */,
+				204F9DDC1F6A7AC0004C4435 /* CMAllMediaPhotoView.m */,
+			);
+			path = CMPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		204F9DE81F6A7C9F004C4435 /* CMVideoManager */ = {
+			isa = PBXGroup;
+			children = (
+				204F9DE91F6A7C9F004C4435 /* CMAllMediaLoaderURLConnection.h */,
+				204F9DEA1F6A7C9F004C4435 /* CMAllMediaLoaderURLConnection.m */,
+				204F9DEB1F6A7C9F004C4435 /* CMAllMediaVideoManager.h */,
+				204F9DEC1F6A7C9F004C4435 /* CMAllMediaVideoManager.m */,
+				204F9DED1F6A7C9F004C4435 /* CMAllMediaVideoPlayerView.h */,
+				204F9DEE1F6A7C9F004C4435 /* CMAllMediaVideoPlayerView.m */,
+				204F9DEF1F6A7C9F004C4435 /* CMAllMediaVideoRequestTask.h */,
+				204F9DF01F6A7C9F004C4435 /* CMAllMediaVideoRequestTask.m */,
+				204F9DF11F6A7C9F004C4435 /* UIScrollView+CMAllMediaQuickScrollView.h */,
+				204F9DF21F6A7C9F004C4435 /* UIScrollView+CMAllMediaQuickScrollView.m */,
+			);
+			path = CMVideoManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +288,7 @@
 				TargetAttributes = {
 					204F9D971F6A7A7D004C4435 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = M4C7ZCQAKU;
+						DevelopmentTeam = CP7C8ZTRME;
 						ProvisioningStyle = Automatic;
 					};
 					204F9DB31F6A7A7E004C4435 = {
@@ -279,9 +357,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204F9DDD1F6A7AC0004C4435 /* CMAllMediaPhotoBrowser.m in Sources */,
+				204F9DF51F6A7C9F004C4435 /* CMAllMediaVideoPlayerView.m in Sources */,
+				204F9DF71F6A7C9F004C4435 /* UIScrollView+CMAllMediaQuickScrollView.m in Sources */,
 				204F9DA91F6A7A7E004C4435 /* ZYPhotoBrowser.xcdatamodeld in Sources */,
+				204F9DF61F6A7C9F004C4435 /* CMAllMediaVideoRequestTask.m in Sources */,
 				204F9DA31F6A7A7E004C4435 /* ViewController.m in Sources */,
 				204F9DA01F6A7A7E004C4435 /* AppDelegate.m in Sources */,
+				204F9DDF1F6A7AC0004C4435 /* CMAllMediaPhotoProgress.m in Sources */,
+				204F9DE31F6A7B1B004C4435 /* PhotoTableViewCell.m in Sources */,
+				204F9DF41F6A7C9F004C4435 /* CMAllMediaVideoManager.m in Sources */,
+				204F9DF31F6A7C9F004C4435 /* CMAllMediaLoaderURLConnection.m in Sources */,
+				204F9DE71F6A7C85004C4435 /* UIImage+CMAllMediaPhotoGif.m in Sources */,
+				204F9DFA1F6A7D18004C4435 /* UIView+Layout.m in Sources */,
+				204F9DDE1F6A7AC0004C4435 /* CMAllMediaPhotoBrowserManager.m in Sources */,
+				204F9DE01F6A7AC0004C4435 /* CMAllMediaPhotoView.m in Sources */,
 				204F9D9D1F6A7A7E004C4435 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,10 +523,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				DEVELOPMENT_TEAM = CP7C8ZTRME;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYPhotoBrowser/Header.h";
 				INFOPLIST_FILE = ZYPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ZYPhotoBrowser.www.ZYPhotoBrowser;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZYPhotoBrowser.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -445,10 +537,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				DEVELOPMENT_TEAM = CP7C8ZTRME;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYPhotoBrowser/Header.h";
 				INFOPLIST_FILE = ZYPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ZYPhotoBrowser.www.ZYPhotoBrowser;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZYPhotoBrowser.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
